@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">#37A1F5</item>
+        <item name="colorAccent">#37A1F5</item>
+        <item name="android:textColorHint">#dfdfdf</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memories</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="log_in">Log In</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in">Sign In</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContinueAccountActivity"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:layout_marginBottom="25dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/memories"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manar Odeh"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue Information"
+            android:textSize="17sp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputEdit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:hint="Name"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputBirthDate_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:hint="Birth Date"
+            android:focusable="false"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/text_wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+     <Button
+         android:id="@+id/btn_submit"
+         android:layout_width="150dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="right"
+         android:layout_margin="9dp"
+         android:text="Submit"
+         android:textAllCaps="false"
+         android:background="@drawable/roundedbutton"
+         android:backgroundTint="@color/colorPrimary"
+         android:textColor="@android:color/white"
+
+         />
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progress_circular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@android:color/holo_purple"
+            />
+    </LinearLayout>
+
+</ScrollView>
